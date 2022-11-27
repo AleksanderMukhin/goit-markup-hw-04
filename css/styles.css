@@ -367,6 +367,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 .cards-soc-link:hover,
 .cards-soc-link:focus {
   background: var(--activity-link-color);
+  color: var(--btn-activity-color);
 }
 
 .team-item-soc:not(:last-child) {
@@ -379,7 +380,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 .team-soc-icon:hover,
 .team-soc-icon:focus {
-  fill: var(--btn-activity-color);
+  fill: currentColor;
 }
 
 
