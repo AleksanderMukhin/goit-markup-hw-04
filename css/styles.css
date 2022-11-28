@@ -71,7 +71,7 @@ img {
   align-items: center;
 }
 
-.header-contact {
+.header-contact-container {
   display: flex;
   margin-left: auto;
 }
@@ -139,6 +139,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--discription-color);
   text-decoration: none;
+  padding: 32px 0;
 }
 
 .header-contact:hover,
