@@ -30,6 +30,10 @@ h1, h2, h3, h4, h5, h6, p, ul {
   margin: 0;
 }
 
+img { 
+  display: block;
+}
+
 .global {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -532,6 +536,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
   text-transform: uppercase;
   color: var(--background-general);
   margin-bottom: 20px;
+  padding-top: 12px;
 }
 
 .invite-list {
